@@ -1,5 +1,5 @@
 # steam-deck-install-gamemaker-studio
-Installation script to run GameMaker Studio 2 on the Steam Deck.
+This install script will allow you to develop games using GameMaker Studio 2 on the Steam Deck. It is based on the Ubuntu Linux Beta version of GameMaker Studio 2.
 
 To install, open a terminal and run: 
 ```shell
@@ -7,7 +7,9 @@ To install, open a terminal and run:
 ```
 
 You will need:
-- your `deck` user password
-- to re-run this after any Steam updates.
+- Your `deck` user password to run admin commands.
+  - By default, there's no password set. Run the `passwd` command in the terminal to set a password.
+
+Steam updates will break the install. Re-run this script after any Steam updates.
 
 Enjoy!
