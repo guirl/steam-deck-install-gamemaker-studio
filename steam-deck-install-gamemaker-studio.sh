@@ -116,5 +116,8 @@ echo "GameMaker Studio 2 has been installed successfully!"
 echo
 echo "You can launch it from the application menu or by running the following command:"
 echo "/home/deck/.local/GameMaker/data/opt/GameMaker-LTS2026/GameMaker"
+echo
+echo "You also need to change your Preferences in GameMaker Studio 2 for the Steam Runtime location. After the first time you start GameMaker Studio 2, click File > Preferences > Platform Settings > Ubuntu and set the 'Steam Runtime SDK location' to '/home/deck/.local/steam-runtime', or your builds will fail."
+echo
 echo "Enjoy!"
 echo
