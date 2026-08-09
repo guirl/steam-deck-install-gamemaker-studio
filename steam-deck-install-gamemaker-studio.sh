@@ -44,7 +44,7 @@ sudo ln -s ~/.local/bin/appimagetool /usr/local/bin/appimagetool
 sudo steamos-readonly enable
 
 # install steam runtime
-# curl https://repo.steampowered.com/steamrt-images-scout/snapshots/latest-steam-client-general-availability/com.valvesoftware.SteamRuntime.Sdk-amd64,i386-scout-sysroot.tar.gz | tar -xzf - -C ~/.local/ --one-top-level=steam-runtime
+curl https://repo.steampowered.com/steamrt-images-scout/snapshots/latest-steam-client-general-availability/com.valvesoftware.SteamRuntime.Sdk-amd64,i386-scout-sysroot.tar.gz | tar -xzf - -C ~/.local/ --one-top-level=steam-runtime
 
 # put ~/.local/bin in path
 if [[ ":$PATH:" != *":/home/deck/.local/bin:"* ]]; then
